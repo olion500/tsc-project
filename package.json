@@ -11,6 +11,11 @@
     "lint-and-fix": "eslint . --ext .ts --fix",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test && npm run prettier-format && npm run lint"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -24,6 +29,7 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^8.0.1",
     "nodemon": "^2.0.16",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
