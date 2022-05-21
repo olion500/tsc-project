@@ -5,4 +5,7 @@
 npm ci
 ```
 
-
+## Typescript Compile
+```
+npm run build
+```
