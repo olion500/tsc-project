@@ -2,5 +2,7 @@
 
 ## Installation
 ```
-npm init
+npm ci
 ```
+
+
