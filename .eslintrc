@@ -1,16 +1,15 @@
 {
-  "root": true,
-  "parser": "@typescript-eslint/parser",
   "plugins": [
-    "@typescript-eslint",
-    "no-loops"
+    "no-loops",
+    "prettier"
   ],
   "extends": [
-    "eslint:recommended",
-    "airbnb-base"
+    "airbnb-base",
+    "prettier"
   ],
   "rules": {
-    "no-console": 0,            // Whether block console.log statement.
-    "no-loops/no-loops": 2      // use map / forEach instead of for / while
+    "no-console": "off",               // Whether block console.log statement.
+    "no-loops/no-loops": "error",      // use map / forEach instead of for / while
+    "prettier/prettier": "error"
   }
 }
