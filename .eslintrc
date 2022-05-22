@@ -1,9 +1,13 @@
 {
+  "parser": "@typescript-eslint/parser",
   "plugins": [
     "no-loops",
-    "prettier"
+    "prettier",
+    "@typescript-eslint"
   ],
   "extends": [
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
     "airbnb-base",
     "prettier"
   ],
