@@ -14,6 +14,7 @@
   "rules": {
     "no-console": "off",               // Whether block console.log statement.
     "no-loops/no-loops": "error",      // use map / forEach instead of for / while
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "no-unused-vars": "off"
   }
 }
