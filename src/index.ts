@@ -1,5 +1,4 @@
-console.log('Hello world!');
+import add from '@/calculator';
 
-for (let i = 0; i < 12; i++) {
-  console.log(i);
-}
+const adder = add;
+console.log(adder(1, 2));
