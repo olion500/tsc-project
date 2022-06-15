@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rimraf ./build && tsc",
     "start:dev": "nodemon",
-    "start": "npm run build && node build/index.js",
+    "start": "npm run build && node -r ts-node/register -r tsconfig-paths/register build/index.js",
     "test": "jest",
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix",
