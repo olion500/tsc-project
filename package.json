@@ -8,6 +8,7 @@
     "start:dev": "nodemon",
     "start": "npm run build && node -r ts-node/register -r tsconfig-paths/register build/index.js",
     "test": "jest",
+    "test-coverage": "jest --coverage",
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix",
     "prettier-format": "prettier --config .prettierrc src/**/*.ts --write"
