@@ -1,6 +1,7 @@
 # Project exclude paths
 /node_modules/
 /build/
+/coverage/
 
 # Intellij
 .idea
